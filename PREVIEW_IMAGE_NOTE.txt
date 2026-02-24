@@ -1,0 +1,25 @@
+PREVIEW IMAGE INSTRUCTIONS
+==========================
+
+The user has provided an image of Aoi Todo clapping to use as the preview image.
+
+TO ADD THE PREVIEW IMAGE:
+
+1. Save the Aoi Todo image as "preview.png" in this directory
+   - The image shows Todo clapping with his hands together
+   - It has a dramatic anime style with cyan/teal visual effects
+
+2. After adding preview.png:
+   - It will automatically be used when uploading to Steam Workshop
+   - The workshop.json already references "preview.png"
+
+3. For GitHub:
+   - Consider adding the image to the README or a screenshots folder
+   - Could create a banner or logo using the image
+
+The preview.png file should be:
+- PNG format (or JPG is also fine, just update workshop.json)
+- Recommended size: 512x512 or similar square aspect ratio for Steam Workshop
+- Shows Aoi Todo's iconic clapping pose
+
+Note: This file (PREVIEW_IMAGE_NOTE.txt) can be deleted after the preview image is added.

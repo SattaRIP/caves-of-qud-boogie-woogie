@@ -1,6 +1,8 @@
 # Boogie Woogie
 
-A Caves of Qud mod that adds the Boogie Woogie mental mutation from Jujutsu Kaisen!
+A Caves of Qud mod that adds Aoi Todo's Boogie Woogie cursed technique from Jujutsu Kaisen!
+
+> *"My Cursed Technique is Boogie Woogie. By clapping my hands, I can forcibly swap the positions of anything with cursed energy in my range."* - Aoi Todo
 
 ## Features
 
@@ -46,9 +48,11 @@ Cybernetic hand implants available in all material tiers:
   - More powerful hand attacks
 - Installs on Hand body slots (1-4 license points depending on tier)
 
-## Inspired by Jujutsu Kaisen
+## About Aoi Todo & Boogie Woogie
 
-Boogie Woogie is Todo Aoi's cursed technique from the anime/manga Jujutsu Kaisen. By clapping his hands, he can swap the positions of anything with cursed energy within his range. This mod brings that mechanic to Caves of Qud!
+Boogie Woogie is Aoi Todo's innate cursed technique from the anime/manga Jujutsu Kaisen by Gege Akutami. Aoi Todo is a third-year student at Kyoto Jujutsu High and one of the series' most beloved characters. By clapping his hands, he can instantly swap the positions of anything with cursed energy within his range, making him a tactical genius in combat.
+
+This mod brings Todo's signature ability to Caves of Qud, complete with the satisfying clap mechanic and spatial manipulation chaos!
 
 ## Installation
 
