@@ -1,0 +1,180 @@
+===============================================
+BOOGIE WOOGIE MOD - PUBLISHING GUIDE
+===============================================
+
+This guide will walk you through publishing the Boogie Woogie mod to both GitHub and Steam Workshop.
+
+===============================================
+CURRENT STATUS
+===============================================
+
+✅ Mod code complete and tested
+✅ Git repository initialized with all files committed
+✅ README.md written with full documentation
+✅ workshop.json configured for Steam Workshop
+✅ Descriptions updated to feature Aoi Todo
+✅ GitHub username detected: SattaRIP
+
+⏳ PENDING: Add preview image (Aoi Todo clapping)
+⏳ PENDING: Push to GitHub
+⏳ PENDING: Upload to Steam Workshop
+
+
+===============================================
+STEP 1: ADD PREVIEW IMAGE (OPTIONAL)
+===============================================
+
+You provided an image of Aoi Todo clapping. To use it:
+
+1. Save the image as: preview.png
+   Location: /home/mythraps/.config/unity3d/Freehold Games/CavesOfQud/Mods/BoogieWoogie/preview.png
+
+2. Recommended size: 512x512 or similar square aspect
+
+3. After adding, commit it:
+   cd "/home/mythraps/.config/unity3d/Freehold Games/CavesOfQud/Mods/BoogieWoogie"
+   git add preview.png
+   git commit -m "Add Aoi Todo preview image"
+
+Note: You can also add the preview image directly in Steam Workshop after uploading.
+
+
+===============================================
+STEP 2: PUSH TO GITHUB
+===============================================
+
+OPTION A: Use the automated script
+-----------------------------------
+cd "/home/mythraps/.config/unity3d/Freehold Games/CavesOfQud/Mods/BoogieWoogie"
+./GITHUB_SETUP.sh
+
+The script will:
+- Guide you through creating the GitHub repo
+- Automatically add the remote
+- Push all commits
+
+
+OPTION B: Manual setup
+----------------------
+1. Create repository at: https://github.com/new
+   - Name: caves-of-qud-boogie-woogie
+   - Description: Aoi Todo's Boogie Woogie cursed technique mod for Caves of Qud
+   - Public repository
+   - DON'T initialize with README
+
+2. Push to GitHub:
+   cd "/home/mythraps/.config/unity3d/Freehold Games/CavesOfQud/Mods/BoogieWoogie"
+   git remote add origin https://github.com/SattaRIP/caves-of-qud-boogie-woogie.git
+   git push -u origin main
+
+
+===============================================
+STEP 3: UPLOAD TO STEAM WORKSHOP
+===============================================
+
+1. Launch Caves of Qud
+
+2. Main Menu → "Mods & Workshop"
+
+3. Find "Boogie Woogie" in your local mods list
+
+4. Click "Upload to Workshop"
+
+5. Review the auto-filled details from workshop.json:
+   - Title: Boogie Woogie
+   - Description: (pre-filled with features and credits)
+   - Tags: Mental Mutations, Gameplay, Items, Cybernetics, Weapons
+
+6. Add preview image if you haven't already:
+   - Click to upload preview image
+   - Select your Aoi Todo clapping image
+
+7. Set visibility to Public
+
+8. Click "Upload"
+
+9. IMPORTANT: Note the Workshop ID number after upload!
+
+
+===============================================
+STEP 4: UPDATE WITH WORKSHOP ID
+===============================================
+
+After uploading to Steam, you'll get a Workshop ID (e.g., 1234567890).
+
+Update workshop.json:
+1. Edit workshop.json
+2. Change "WorkshopId": 0 to "WorkshopId": [YOUR_ID]
+3. Commit and push:
+   git add workshop.json
+   git commit -m "Add Steam Workshop ID: [YOUR_ID]"
+   git push
+
+This will link the GitHub repo to the Steam Workshop page.
+
+
+===============================================
+STEP 5: ADD STEAM BADGE TO README (OPTIONAL)
+===============================================
+
+After getting the Workshop ID, you can add a Steam Workshop badge to README.md:
+
+[![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-blue.svg)](https://steamcommunity.com/sharedfiles/filedetails/?id=[YOUR_ID])
+
+Then commit and push the updated README.
+
+
+===============================================
+QUICK START CHECKLIST
+===============================================
+
+[ ] 1. (Optional) Add preview.png and commit
+[ ] 2. Run ./GITHUB_SETUP.sh OR manually push to GitHub
+[ ] 3. Create GitHub repository
+[ ] 4. Verify mod appears on GitHub
+[ ] 5. Launch Caves of Qud
+[ ] 6. Upload mod to Steam Workshop
+[ ] 7. Note the Workshop ID
+[ ] 8. Update workshop.json with ID
+[ ] 9. Commit and push final changes
+[ ] 10. (Optional) Add Steam badge to README
+
+
+===============================================
+TROUBLESHOOTING
+===============================================
+
+GitHub Authentication Issues:
+- Use GitHub CLI: gh auth login
+- Or set up SSH keys: https://docs.github.com/en/authentication
+
+Steam Workshop Upload Failed:
+- Ensure mod is enabled in Caves of Qud
+- Check for compilation errors in build_log.txt
+- Verify all required files are present
+
+Can't Find Mod in Steam Workshop:
+- Check Workshop settings (may be set to Private)
+- Visit: https://steamcommunity.com/sharedfiles/filedetails/?id=[YOUR_ID]
+
+
+===============================================
+HELPFUL LINKS
+===============================================
+
+GitHub Repository: https://github.com/SattaRIP/caves-of-qud-boogie-woogie
+Steam Workshop: [Will be available after upload]
+Caves of Qud Modding Wiki: https://wiki.cavesofqud.com/wiki/Modding
+
+
+===============================================
+SUPPORT
+===============================================
+
+For issues or questions:
+- Check Caves of Qud modding Discord
+- Visit official forums
+- Check the mod's GitHub Issues page
+
+
+===============================================
