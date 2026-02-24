@@ -1,5 +1,8 @@
 # Boogie Woogie
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/SattaRIP/caves-of-qud-boogie-woogie)
+[![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-1b2838?logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=TBD)
+
 A Caves of Qud mod that adds Aoi Todo's Boogie Woogie cursed technique from Jujutsu Kaisen!
 
 > *"My Cursed Technique is Boogie Woogie. By clapping my hands, I can forcibly swap the positions of anything with cursed energy in my range."* - Aoi Todo
@@ -57,12 +60,17 @@ This mod brings Todo's signature ability to Caves of Qud, complete with the sati
 ## Installation
 
 ### Steam Workshop (Recommended)
-Subscribe to the mod on the [Steam Workshop](#) (link TBD)
+Subscribe to the mod on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=TBD) (Coming Soon!)
 
 ### Manual Installation
-1. Download the latest release
+1. Download the [latest release](https://github.com/SattaRIP/caves-of-qud-boogie-woogie/releases)
 2. Extract to `Caves of Qud/Mods/BoogieWoogie/`
 3. Enable in the game's mod menu
+
+### From Source
+```bash
+git clone https://github.com/SattaRIP/caves-of-qud-boogie-woogie.git "Caves of Qud/Mods/BoogieWoogie"
+```
 
 ## Compatibility
 
