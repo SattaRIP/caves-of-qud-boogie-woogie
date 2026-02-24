@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mutations>
+  <category Name="Mental" Load="Merge">
+    <mutation
+      Name="Boogie Woogie"
+      Cost="4"
+      MaxSelected="1"
+      Class="BoogieWoogie"
+      BearerDescription="those who swap with a clap"
+      Tile="Mutations/boogiewoogie.png" />
+  </category>
+</mutations>

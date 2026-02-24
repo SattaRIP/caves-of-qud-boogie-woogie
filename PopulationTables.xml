@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<populations>
+  <!-- Add vibroslaps to cudgel loot tables -->
+
+  <!-- Tier 1 -->
+  <population Name="*Cudgels 1" Load="Merge">
+    <object Name="Vibroslap" Number="1" Weight="50" />
+  </population>
+
+  <!-- Tier 2 -->
+  <population Name="*Cudgels 2" Load="Merge">
+    <object Name="Vibroslap Bronze" Number="1" Weight="50" />
+  </population>
+
+  <!-- Tier 3 -->
+  <population Name="*Cudgels 3" Load="Merge">
+    <object Name="Vibroslap Iron" Number="1" Weight="50" />
+  </population>
+
+  <!-- Tier 4 -->
+  <population Name="*Cudgels 4" Load="Merge">
+    <object Name="Vibroslap Steel" Number="1" Weight="50" />
+  </population>
+
+  <!-- Tier 5 -->
+  <population Name="*Cudgels 5" Load="Merge">
+    <object Name="Vibroslap Carbide" Number="1" Weight="50" />
+  </population>
+
+  <!-- Tier 6 -->
+  <population Name="*Cudgels 6" Load="Merge">
+    <object Name="Vibroslap Fullerite" Number="1" Weight="30" />
+  </population>
+
+  <!-- Tier 7 -->
+  <population Name="*Cudgels 7" Load="Merge">
+    <object Name="Vibroslap Folded Carbide" Number="1" Weight="20" />
+  </population>
+
+  <!-- Tier 8 -->
+  <population Name="*Cudgels 8" Load="Merge">
+    <object Name="Vibroslap Zetachrome" Number="1" Weight="10" />
+  </population>
+</populations>

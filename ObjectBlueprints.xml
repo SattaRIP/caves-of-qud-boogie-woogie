@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+  <!-- Base Vibroslap (Wooden) -->
+  <object Name="Vibroslap" Inherits="BaseCudgel">
+    <part Name="Render" DisplayName="vibroslap" Tile="Items/sw_cudgel_1.bmp" DetailColor="w" />
+    <part Name="Physics" Category="Cudgels" />
+    <part Name="Commerce" Value="25" />
+    <part Name="Description" Short="A peculiar wooden instrument with metal teeth that vibrate and rattle when struck. Its resonant claps seem to bend space itself." />
+    <part Name="MeleeWeapon" BaseDamage="1d4" Skill="Cudgel" Penetration="1" />
+    <part Name="VibroslapCudgel" MutationLevel="1" FreeActionChance="15" />
+    <tag Name="Tier" Value="1" />
+  </object>
+
+  <!-- Bronze Vibroslap -->
+  <object Name="Vibroslap Bronze" Inherits="Vibroslap">
+    <part Name="Render" DisplayName="bronze vibroslap" DetailColor="Y" />
+    <part Name="Commerce" Value="50" />
+    <part Name="Description" Short="A bronze-framed vibroslap with enhanced resonating teeth. Its metallic claps create powerful spatial vibrations." />
+    <part Name="MeleeWeapon" BaseDamage="1d4+1" Penetration="2" />
+    <part Name="VibroslapCudgel" MutationLevel="2" FreeActionChance="20" />
+    <tag Name="Tier" Value="2" />
+  </object>
+
+  <!-- Iron Vibroslap -->
+  <object Name="Vibroslap Iron" Inherits="Vibroslap">
+    <part Name="Render" DisplayName="iron vibroslap" DetailColor="y" />
+    <part Name="Commerce" Value="150" />
+    <part Name="Description" Short="An iron-framed vibroslap with precisely tuned resonating teeth. Its heavy claps warp space with each strike." />
+    <part Name="MeleeWeapon" BaseDamage="1d4+2" Penetration="3" />
+    <part Name="VibroslapCudgel" MutationLevel="3" FreeActionChance="25" />
+    <tag Name="Tier" Value="3" />
+  </object>
+
+  <!-- Steel Vibroslap -->
+  <object Name="Vibroslap Steel" Inherits="Vibroslap">
+    <part Name="Render" DisplayName="steel vibroslap" DetailColor="C" />
+    <part Name="Commerce" Value="350" />
+    <part Name="Description" Short="A steel-framed vibroslap with harmonically tuned teeth. Its crisp claps produce intense spatial distortions." />
+    <part Name="MeleeWeapon" BaseDamage="1d6" Penetration="4" />
+    <part Name="VibroslapCudgel" MutationLevel="4" FreeActionChance="30" />
+    <tag Name="Tier" Value="4" />
+  </object>
+
+  <!-- Carbide Vibroslap -->
+  <object Name="Vibroslap Carbide" Inherits="Vibroslap">
+    <part Name="Render" DisplayName="carbide vibroslap" DetailColor="B" />
+    <part Name="Commerce" Value="750" />
+    <part Name="Description" Short="A carbide-framed vibroslap with quantum-tuned resonating teeth. Its devastating claps tear through space itself." />
+    <part Name="MeleeWeapon" BaseDamage="1d6+2" Penetration="5" />
+    <part Name="VibroslapCudgel" MutationLevel="5" FreeActionChance="35" />
+    <tag Name="Tier" Value="5" />
+    <tag Name="MasterworkItem" />
+  </object>
+
+  <!-- Fullerite Vibroslap -->
+  <object Name="Vibroslap Fullerite" Inherits="Vibroslap">
+    <part Name="Render" DisplayName="fullerite vibroslap" DetailColor="M" />
+    <part Name="Commerce" Value="1500" />
+    <part Name="Description" Short="A fullerite-framed vibroslap with crystalline resonating teeth. Its otherworldly claps shatter the fabric of reality." />
+    <part Name="MeleeWeapon" BaseDamage="1d8" Penetration="6" />
+    <part Name="VibroslapCudgel" MutationLevel="6" FreeActionChance="40" />
+    <tag Name="Tier" Value="6" />
+    <tag Name="MasterworkItem" />
+  </object>
+
+  <!-- Folded Carbide Vibroslap -->
+  <object Name="Vibroslap Folded Carbide" Inherits="Vibroslap">
+    <part Name="Render" DisplayName="folded carbide vibroslap" DetailColor="b" />
+    <part Name="Commerce" Value="3000" />
+    <part Name="Description" Short="A folded carbide-framed vibroslap with impossibly sharp resonating teeth. Its masterwork claps fold space into itself." />
+    <part Name="MeleeWeapon" BaseDamage="1d8+2" Penetration="7" />
+    <part Name="VibroslapCudgel" MutationLevel="7" FreeActionChance="45" />
+    <tag Name="Tier" Value="7" />
+    <tag Name="MasterworkItem" />
+  </object>
+
+  <!-- Zetachrome Vibroslap -->
+  <object Name="Vibroslap Zetachrome" Inherits="Vibroslap">
+    <part Name="Render" DisplayName="zetachrome vibroslap" DetailColor="R" />
+    <part Name="Commerce" Value="6000" />
+    <part Name="Description" Short="A zetachrome-framed vibroslap with trans-dimensional resonating teeth. Its reality-warping claps echo across timelines." />
+    <part Name="MeleeWeapon" BaseDamage="1d10" Penetration="8" />
+    <part Name="VibroslapCudgel" MutationLevel="8" FreeActionChance="50" />
+    <tag Name="Tier" Value="8" />
+    <tag Name="MasterworkItem" />
+  </object>
+
+  <!-- Vibroslap Cybernetic Implant (Wooden) -->
+  <object Name="Cybernetics2Vibroslap" Inherits="Object">
+    <part Name="Render" DisplayName="vibrating palm implant" Tile="Items/sw_cudgel_1.bmp" DetailColor="w" />
+    <part Name="Physics" Solid="false" Category="Cybernetic Implants" />
+    <part Name="Description" Short="A basic cybernetic hand implant with embedded resonating plates that produce spatial vibrations with each strike.&#10;&#10;{{rules|License point cost: 1}}&#10;{{rules|Grants Boogie Woogie at level 1}}&#10;{{rules|25% chance for free action}}&#10;{{rules|+1 bonus to confusion save DC}}&#10;{{rules|Replaces hand with vibrating palm}}" />
+    <part Name="Commerce" Value="100" />
+    <part Name="CyberneticsBaseItem" LicensePointCost="1" Slots="Hand" />
+    <part Name="CyberneticsFistReplacement" FistObject="VibroslapFist" />
+    <part Name="VibroslapCybernetics" MutationLevel="1" FreeActionChance="25" ConfusionBonus="1" />
+    <tag Name="Cybernetics" />
+    <tag Name="Tier" Value="1" />
+  </object>
+
+  <!-- Bronze Vibroslap Cybernetic -->
+  <object Name="Cybernetics2Vibroslap Bronze" Inherits="Cybernetics2Vibroslap">
+    <part Name="Render" DisplayName="bronze vibrating palm implant" DetailColor="Y" />
+    <part Name="Description" Short="A bronze cybernetic hand implant with enhanced resonating plates that produce powerful spatial vibrations.&#10;&#10;{{rules|License point cost: 1}}&#10;{{rules|Grants Boogie Woogie at level 2}}&#10;{{rules|30% chance for free action}}&#10;{{rules|+1 bonus to confusion save DC}}&#10;{{rules|Replaces hand with bronze vibrating palm}}" />
+    <part Name="Commerce" Value="200" />
+    <part Name="CyberneticsFistReplacement" FistObject="VibroslapFist Bronze" />
+    <part Name="VibroslapCybernetics" MutationLevel="2" FreeActionChance="30" ConfusionBonus="1" />
+    <tag Name="Tier" Value="2" />
+  </object>
+
+  <!-- Iron Vibroslap Cybernetic -->
+  <object Name="Cybernetics2Vibroslap Iron" Inherits="Cybernetics2Vibroslap">
+    <part Name="Render" DisplayName="iron vibrating palm implant" DetailColor="y" />
+    <part Name="Description" Short="An iron cybernetic hand implant with precisely tuned resonating plates that warp space with each strike.&#10;&#10;{{rules|License point cost: 2}}&#10;{{rules|Grants Boogie Woogie at level 3}}&#10;{{rules|35% chance for free action}}&#10;{{rules|+2 bonus to confusion save DC}}&#10;{{rules|Replaces hand with iron vibrating palm}}" />
+    <part Name="Commerce" Value="400" />
+    <part Name="CyberneticsBaseItem" LicensePointCost="2" Slots="Hand" />
+    <part Name="CyberneticsFistReplacement" FistObject="VibroslapFist Iron" />
+    <part Name="VibroslapCybernetics" MutationLevel="3" FreeActionChance="35" ConfusionBonus="2" />
+    <tag Name="Tier" Value="3" />
+  </object>
+
+  <!-- Steel Vibroslap Cybernetic -->
+  <object Name="Cybernetics2Vibroslap Steel" Inherits="Cybernetics2Vibroslap">
+    <part Name="Render" DisplayName="steel vibrating palm implant" DetailColor="C" />
+    <part Name="Description" Short="A steel cybernetic hand implant with harmonically tuned resonating plates that produce intense spatial distortions.&#10;&#10;{{rules|License point cost: 2}}&#10;{{rules|Grants Boogie Woogie at level 4}}&#10;{{rules|40% chance for free action}}&#10;{{rules|+2 bonus to confusion save DC}}&#10;{{rules|Replaces hand with steel vibrating palm}}" />
+    <part Name="Commerce" Value="800" />
+    <part Name="CyberneticsBaseItem" LicensePointCost="2" Slots="Hand" />
+    <part Name="CyberneticsFistReplacement" FistObject="VibroslapFist Steel" />
+    <part Name="VibroslapCybernetics" MutationLevel="4" FreeActionChance="40" ConfusionBonus="2" />
+    <tag Name="Tier" Value="4" />
+  </object>
+
+  <!-- Carbide Vibroslap Cybernetic -->
+  <object Name="Cybernetics2Vibroslap Carbide" Inherits="Cybernetics2Vibroslap">
+    <part Name="Render" DisplayName="carbide vibrating palm implant" DetailColor="B" />
+    <part Name="Description" Short="A carbide cybernetic hand implant with quantum-tuned resonating plates that tear through space itself.&#10;&#10;{{rules|License point cost: 3}}&#10;{{rules|Grants Boogie Woogie at level 5}}&#10;{{rules|45% chance for free action}}&#10;{{rules|+3 bonus to confusion save DC}}&#10;{{rules|Replaces hand with carbide vibrating palm}}" />
+    <part Name="Commerce" Value="1500" />
+    <part Name="CyberneticsBaseItem" LicensePointCost="3" Slots="Hand" />
+    <part Name="CyberneticsFistReplacement" FistObject="VibroslapFist Carbide" />
+    <part Name="VibroslapCybernetics" MutationLevel="5" FreeActionChance="45" ConfusionBonus="3" />
+    <tag Name="Tier" Value="5" />
+  </object>
+
+  <!-- Fullerite Vibroslap Cybernetic -->
+  <object Name="Cybernetics2Vibroslap Fullerite" Inherits="Cybernetics2Vibroslap">
+    <part Name="Render" DisplayName="fullerite vibrating palm implant" DetailColor="M" />
+    <part Name="Description" Short="A fullerite cybernetic hand implant with crystalline resonating plates that shatter the fabric of reality.&#10;&#10;{{rules|License point cost: 3}}&#10;{{rules|Grants Boogie Woogie at level 6}}&#10;{{rules|50% chance for free action}}&#10;{{rules|+3 bonus to confusion save DC}}&#10;{{rules|Replaces hand with fullerite vibrating palm}}" />
+    <part Name="Commerce" Value="3000" />
+    <part Name="CyberneticsBaseItem" LicensePointCost="3" Slots="Hand" />
+    <part Name="CyberneticsFistReplacement" FistObject="VibroslapFist Fullerite" />
+    <part Name="VibroslapCybernetics" MutationLevel="6" FreeActionChance="50" ConfusionBonus="3" />
+    <tag Name="Tier" Value="6" />
+  </object>
+
+  <!-- Folded Carbide Vibroslap Cybernetic -->
+  <object Name="Cybernetics2Vibroslap Folded Carbide" Inherits="Cybernetics2Vibroslap">
+    <part Name="Render" DisplayName="folded carbide vibrating palm implant" DetailColor="b" />
+    <part Name="Description" Short="A folded carbide cybernetic hand implant with impossibly sharp resonating plates that fold space into itself.&#10;&#10;{{rules|License point cost: 4}}&#10;{{rules|Grants Boogie Woogie at level 7}}&#10;{{rules|55% chance for free action}}&#10;{{rules|+4 bonus to confusion save DC}}&#10;{{rules|Replaces hand with folded carbide vibrating palm}}" />
+    <part Name="Commerce" Value="6000" />
+    <part Name="CyberneticsBaseItem" LicensePointCost="4" Slots="Hand" />
+    <part Name="CyberneticsFistReplacement" FistObject="VibroslapFist Folded Carbide" />
+    <part Name="VibroslapCybernetics" MutationLevel="7" FreeActionChance="55" ConfusionBonus="4" />
+    <tag Name="Tier" Value="7" />
+  </object>
+
+  <!-- Zetachrome Vibroslap Cybernetic -->
+  <object Name="Cybernetics2Vibroslap Zetachrome" Inherits="Cybernetics2Vibroslap">
+    <part Name="Render" DisplayName="zetachrome vibrating palm implant" DetailColor="R" />
+    <part Name="Description" Short="A zetachrome cybernetic hand implant with trans-dimensional resonating plates whose reality-warping strikes echo across timelines.&#10;&#10;{{rules|License point cost: 4}}&#10;{{rules|Grants Boogie Woogie at level 8}}&#10;{{rules|60% chance for free action}}&#10;{{rules|+4 bonus to confusion save DC}}&#10;{{rules|Replaces hand with zetachrome vibrating palm}}" />
+    <part Name="Commerce" Value="12000" />
+    <part Name="CyberneticsBaseItem" LicensePointCost="4" Slots="Hand" />
+    <part Name="CyberneticsFistReplacement" FistObject="VibroslapFist Zetachrome" />
+    <part Name="VibroslapCybernetics" MutationLevel="8" FreeActionChance="60" ConfusionBonus="4" />
+    <tag Name="Tier" Value="8" />
+  </object>
+
+  <!-- Cybernetic Fist Weapons -->
+  <object Name="VibroslapFist" Inherits="NaturalWeapon">
+    <part Name="Render" DisplayName="vibrating palm" />
+    <part Name="MeleeWeapon" BaseDamage="1d4" Skill="Cudgel" Penetration="1" />
+  </object>
+
+  <object Name="VibroslapFist Bronze" Inherits="NaturalWeapon">
+    <part Name="Render" DisplayName="bronze vibrating palm" />
+    <part Name="MeleeWeapon" BaseDamage="1d4+1" Skill="Cudgel" Penetration="2" />
+  </object>
+
+  <object Name="VibroslapFist Iron" Inherits="NaturalWeapon">
+    <part Name="Render" DisplayName="iron vibrating palm" />
+    <part Name="MeleeWeapon" BaseDamage="1d4+2" Skill="Cudgel" Penetration="3" />
+  </object>
+
+  <object Name="VibroslapFist Steel" Inherits="NaturalWeapon">
+    <part Name="Render" DisplayName="steel vibrating palm" />
+    <part Name="MeleeWeapon" BaseDamage="1d6" Skill="Cudgel" Penetration="4" />
+  </object>
+
+  <object Name="VibroslapFist Carbide" Inherits="NaturalWeapon">
+    <part Name="Render" DisplayName="carbide vibrating palm" />
+    <part Name="MeleeWeapon" BaseDamage="1d6+2" Skill="Cudgel" Penetration="5" />
+  </object>
+
+  <object Name="VibroslapFist Fullerite" Inherits="NaturalWeapon">
+    <part Name="Render" DisplayName="fullerite vibrating palm" />
+    <part Name="MeleeWeapon" BaseDamage="1d8" Skill="Cudgel" Penetration="6" />
+  </object>
+
+  <object Name="VibroslapFist Folded Carbide" Inherits="NaturalWeapon">
+    <part Name="Render" DisplayName="folded carbide vibrating palm" />
+    <part Name="MeleeWeapon" BaseDamage="1d8+2" Skill="Cudgel" Penetration="7" />
+  </object>
+
+  <object Name="VibroslapFist Zetachrome" Inherits="NaturalWeapon">
+    <part Name="Render" DisplayName="zetachrome vibrating palm" />
+    <part Name="MeleeWeapon" BaseDamage="1d10" Skill="Cudgel" Penetration="8" />
+  </object>
+</objects>
