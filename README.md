@@ -1,7 +1,7 @@
 # Boogie Woogie
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/SattaRIP/caves-of-qud-boogie-woogie)
-[![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-1b2838?logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=TBD)
+[![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-1b2838?logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=3673038006)
 
 A Caves of Qud mod that adds Aoi Todo's Boogie Woogie cursed technique from Jujutsu Kaisen!
 
@@ -60,7 +60,7 @@ This mod brings Todo's signature ability to Caves of Qud, complete with the sati
 ## Installation
 
 ### Steam Workshop (Recommended)
-Subscribe to the mod on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=TBD) (Coming Soon!)
+Subscribe to the mod on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3673038006)
 
 ### Manual Installation
 1. Download the [latest release](https://github.com/SattaRIP/caves-of-qud-boogie-woogie/releases)
