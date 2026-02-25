@@ -16,6 +16,8 @@ GITHUB REPOSITORY
 ✅ GitHub badges added to README
 ✅ Release v1.0.0 created with download
 ✅ Repository set to public
+✅ Placeholder preview.png created (fixes Workshop upload)
+✅ Workshop troubleshooting guide documented
 
 GIT COMMITS
 -----------
